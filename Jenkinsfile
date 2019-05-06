@@ -11,7 +11,7 @@ pipeline{
 	stages {
 		stage('Build') {
 			 steps {
-                		echo "flag: ${params.userFlag}"
+                		echo "flag: ${params.MANIFESTS}"
             		}
 		 }
 	}
