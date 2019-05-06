@@ -11,10 +11,6 @@ pipeline{
 	stages {
 		stage('Build') {
 			 sh 'echo ${MANIFESTS}'
-		  
-    }
-		
-	
+		 }
 	}
-}
 }
